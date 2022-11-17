@@ -2,8 +2,10 @@ const shape = "circle";
 const topics = ["HTML", "CSS", "Git", "JavaScript"];
 const topic = "HTML";
 var randomTopic = topics[Math.floor(Math.random() * topics.length)];
-// for (let x = 0; x < topics.length; x++) {
-//   console.log(topics[x]);
+
+for (let x = 0; x < topics.length; x++) {
+  console.log(topics[x]);
+}
 
 function listTopics() {
   for (x = 0; x < topics.length; x++) {
@@ -27,6 +29,7 @@ function selectTopics(input) {
 function helloWorld() {
   console.log("Hello, world I am a function");
 }
-selectTopics("HTML");
-helloWorld();
-listTopics();
+// selectTopics("HTML");
+// helloWorld();
+// listTopics();
+console.log(randomTopic);
